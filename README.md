@@ -45,7 +45,7 @@ listen myapp
 ```
 
 
-## Rsyslog sample configuration /etc/rsyslog.d/rsyslog-haproxy.conf
+## Rsyslog sample configuration /etc/rsyslog.d/rsyslog-haproxy.conf (dont forget to change the IP address !)
 ```
 # Centralisation des logs vers Graylog
 # Fichier specifique pour HAProxy
@@ -66,7 +66,7 @@ local2.=info            /var/log/haproxy.log;GRAYLOGRFC5424
 local2.notice           /var/log/haproxy-status.log;GRAYLOGRFC5424
 
 if $syslogtag contains 'haproxy' and $msg contains 'stats' then ~
-if $syslogtag contains 'haproxy' then @@129.20.130.15:12211;GRAYLOGRFC5424
+if $syslogtag contains 'haproxy' then @@xxx.xxx.xxx.xxx:12211;GRAYLOGRFC5424
 :syslogtag, contains, "haproxy" ~
 
 ```
