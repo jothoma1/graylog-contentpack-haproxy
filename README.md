@@ -1,6 +1,6 @@
-# Haproxy Content Pack for Graylog (https://www.graylog.org/)
+# HAProxy Content Pack for Graylog (https://www.graylog.org/)
 
-Tested with haproxy 1.5/rsyslog/Graylog 2
+Tested with HAProxy 1.5/rsyslog/Graylog 2
 
 This content pack provides example configuration and useful dashboard for Haproxy load balancer :
 * Access from last week
