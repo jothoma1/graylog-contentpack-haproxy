@@ -20,6 +20,7 @@ This content pack provides example configuration and useful dashboard for Haprox
 * Haproxy 1.5
 * Graylog 2 (or 2.1)
 * Rsyslog collecting logs, other log collectors will work but may require modifying the searches to match the different fields outputted by other collectors
+* !! You have to make a JSON extractor on the INPUT you are forwarding the logs in Graylog !!
 
 ## /etc/haproxy/haproxy.cfg Example
 ```
