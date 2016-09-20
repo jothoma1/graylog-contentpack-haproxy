@@ -12,7 +12,7 @@ This content pack provides example configuration and useful dashboard for Haprox
 
 * Haproxy sample configuration (in order to format log in JSON)
 * Rsyslog configuration for catching JSON logs of chrooted Haproxy and transfer to Graylog (change with your graylog server or LB)
-* Dashboard
+* A sample dashboard -> feel free to adapt this !!
 * No stream in this content pack (if you want to make one just create it with rule: application_name:haproxy)
 
 ## Requirements
