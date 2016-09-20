@@ -3,19 +3,17 @@
 Tested with HAProxy 1.5/rsyslog/Graylog 2
 
 This content pack provides example configuration and useful dashboard for Haproxy load balancer :
-* Access from last week
-* Top hourly accounting users
-* Top hourly callingstation
-* Start/Stop/Interim-Update
-* VLAN
-* NAS
+* Top hourly clients
+* Top hourly backends
+* Backends with retries > 0 in 5 days
+* Frontend connections in 7 days
 
 ## Includes
 
 * Haproxy sample configuration (in order to format log in JSON)
 * Rsyslog configuration for catching JSON logs of chrooted Haproxy and transfer to Graylog (change with your graylog server or LB)
-* Stream (dont forget to change MyRadiusServer with your host)
 * Dashboard
+* No stream in this content pack (if you want to make one just create it with rule: application_name:haproxy)
 
 ## Requirements
 
