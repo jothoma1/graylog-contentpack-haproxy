@@ -73,4 +73,4 @@ if $syslogtag contains 'haproxy' then @@xxx.xxx.xxx.xxx:12211;GRAYLOGRFC5424
 
 ## Screenshots
 
-![Screenshot](/screenshot.png.jpg?raw=true "Dashboard Screenshot")
+![Screenshot](/screenshot.png?raw=true "Dashboard Screenshot")
