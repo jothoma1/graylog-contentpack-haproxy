@@ -66,6 +66,7 @@ $UDPServerAddress 127.0.0.1
 local2.=info            /var/log/haproxy.log;GRAYLOGRFC5424
 local2.notice           /var/log/haproxy-status.log;GRAYLOGRFC5424
 
+# The difference between UDP and TCP is using @ instead of @@ as target descriptor.
 if $syslogtag contains 'haproxy' and $msg contains 'stats' then ~
 if $syslogtag contains 'haproxy' then @xxx.xxx.xxx.xxx:12211;GRAYLOGRFC5424
 :syslogtag, contains, "haproxy" ~
