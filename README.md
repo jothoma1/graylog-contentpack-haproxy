@@ -46,7 +46,7 @@ listen myapp
 ```
 
 
-## Rsyslog sample configuration /etc/rsyslog.d/rsyslog-haproxy.conf (dont forget to change the IP address !)
+## Rsyslog sample configuration /etc/rsyslog.d/rsyslog-haproxy.conf (dont forget to change the IP address xxx.xxx.xxx.xxx !)
 ```
 # Centralisation des logs vers Graylog
 # Fichier specifique pour HAProxy
